@@ -87,7 +87,7 @@ public class Set {
 	}
 	
 	public Set intersection(Set s) {
-		set = (s & set); //finding what is in set s and the set
+		s = (s & set); //finding what is in set s and the set
 		return s;
 	}
 	/**
