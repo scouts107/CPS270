@@ -87,10 +87,10 @@ public class Set {
 	}
 	
 	public Set intersection(Set s) {
-
+		set = (s & set); //finding what is in set s and the set
+		
 		return null;
 	}
-	
 	/**
 	 * Returns the union of a set  
 	 * @param s The set to combine with
