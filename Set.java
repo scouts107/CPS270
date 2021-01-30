@@ -104,10 +104,20 @@ public class Set {
 		return s;
 	}
 	
-	public List<Integer> toList() {
-
-		return null;
-	}
+	/**
+     * this converts our float to an array of binary
+     * @return the aray list
+     * 
+     */
+    public List<Integer> toList() {
+        
+        ArrayList<Integer> arlist = new ArrayList<Integer>( );
+        for (int i = 63; i != 1; i--) {
+            if (s.charAt(i) == '1')
+                arlist.add(i);
+        }
+        return arlist;
+    }
 	
 	/**
 	 * Checks if a set is empty.
