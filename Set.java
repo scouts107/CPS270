@@ -88,8 +88,7 @@ public class Set {
 	
 	public Set intersection(Set s) {
 		set = (s & set); //finding what is in set s and the set
-		
-		return null;
+		return s;
 	}
 	/**
 	 * Returns the union of a set  
