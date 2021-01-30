@@ -87,7 +87,7 @@ public class Set {
 	}
 	
 	public Set intersection(Set s) {
-		s = (s & set); //finding what is in set s and the set
+		s = (s & set); //finding the intersection of set s and the set
 		return s;
 	}
 	/**
@@ -96,7 +96,7 @@ public class Set {
 	 * @return A union of the two sets
 	 */
 	public Set union(Set s) {
-		s = (s | set);
+		s = (s | set); //finding the union of set s and the set
 		return s;
 	}
 	
