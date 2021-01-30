@@ -85,7 +85,11 @@ public class Set {
 			set = (set & ~mask);
 		}
 	}
-	
+	/**
+	 * Returns the intersection of 2 sets  
+	 * @param s The set to be compared
+	 * @return the intersection of 2 sets
+	 */
 	public Set intersection(Set s) {
 		s = (s & set); //finding the intersection of set s and the set
 		return s;
